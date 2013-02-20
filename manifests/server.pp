@@ -9,6 +9,7 @@ class puppet::server (
   $port                = $puppet::params::port,
   $environments        = $puppet::params::environments,
   $modules_path        = $puppet::params::modules_path,
+  $templates_path      = $puppet::params::templates_path,
   $manifest_path       = $puppet::params::manifest_path,
   $common_modules_path = $puppet::params::common_modules_path,
   $foreman_url         = $foreman::params::foreman_url,
